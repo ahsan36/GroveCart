@@ -19,8 +19,10 @@ const DarkMode = () => {
             localStorage.setItem("theme", "light");
         }
     }, [theme]);
+
   return (
     <div className='relative'>
+
         {/* Light Button */}
         <img 
             src={LightButton} 
@@ -32,7 +34,6 @@ const DarkMode = () => {
         /> 
 
         {/* Dark Button */}
-
         <img
             src={DarkButton}
             alt=""

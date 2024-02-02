@@ -14,6 +14,8 @@ const Navbar = () => {
 
       <div className='bg-primary/40 py-2'>
         <div className='container flex justify-between items-center'>
+          
+          {/* Logo */}
            <div>
               <a href="#" className='font-bold text-2xl sm:text-3xl flex gap-2'>
                 <img 
@@ -21,7 +23,7 @@ const Navbar = () => {
                     alt="Logo" 
                     className='w-10'
                 />
-                Trend
+                GroveCart
                 </a>  
             </div> 
 
@@ -44,7 +46,6 @@ const Navbar = () => {
                 {/* order button */}
 
                 <button 
-                    // onClick={() => handleOrderPopup()}
                     className='bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group'>
                     <span 
                         className='group-hover:block hidden transition-all duration-200'>
@@ -81,7 +82,7 @@ const Navbar = () => {
 
         <li className='group relative cursor-pointer'>
           <a href="#" className='flex items-center gap-[2px] py-2'>
-            Trending Products
+            Top Rated
             <span>
               <FaCaretDown className='transition-all duration-200 group-hover:rotate-180' />
             </span>

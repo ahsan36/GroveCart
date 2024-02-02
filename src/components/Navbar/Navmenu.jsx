@@ -1,3 +1,5 @@
+// Navbar Menu
+
 export const Menu = [
     {
       id: 1,
@@ -6,12 +8,12 @@ export const Menu = [
     },
     {
       id: 2,
-      name: "Top Rated",
+      name: "Trending Products",
       link: "/#services",
     },
     {
       id: 3,
-      name: "Kids Wear",
+      name: "Best Selling",
       link: "/#",
     },
     {
@@ -19,17 +21,14 @@ export const Menu = [
       name: "Mens Wear",
       link: "/#",
     },
-    {
-      id: 3,
-      name: "Electronics",
-      link: "/#",
-    },
-  ];
+];
+
+// Navbar DropdownLinks
   
 export const DropdownLinks = [
     {
       id: 1,
-      name: "Trending Products",
+      name: "Top Rated",
       link: "/#",
     },
     {
@@ -39,7 +38,7 @@ export const DropdownLinks = [
     },
     {
       id: 3,
-      name: "Top Rated",
+      name: "Kids Wear",
       link: "/#",
     },
 ];
