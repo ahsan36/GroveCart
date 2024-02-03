@@ -9,17 +9,17 @@ export const Menu = [
     {
       id: 2,
       name: "Trending Products",
-      link: "/#services",
+      link: "#",
     },
     {
       id: 3,
       name: "Best Selling",
-      link: "/#",
+      link: "#",
     },
     {
       id: 3,
       name: "Mens Wear",
-      link: "/#",
+      link: "#",
     },
 ];
 
